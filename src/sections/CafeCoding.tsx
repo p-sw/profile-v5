@@ -12,13 +12,13 @@ export function CafeCodingImage() {
   const { src, isLoading, error } = useImage({ srcList: "/cafecoding.webp" });
 
   return (
-    <div className="relative w-full aspect-video flex flex-column justify-center items-center">
+    <div className="relative w-4/5 mx-auto aspect-video flex flex-column justify-center items-center">
       {!error ? <MdiLoading className="animate-spin" /> : <MdiAlert />}
       <motion.div
         initial={"loading"}
         animate={isLoading || !!error ? "loading" : "loaded"}
         variants={variants}
-        className="absolute w-full aspect-video border-2 border-current rounded-lg"
+        className="absolute w-full aspect-video border-8 border-current rounded-lg"
       >
         <img src={src} className="object-contain" />
       </motion.div>
