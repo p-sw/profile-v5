@@ -2,7 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{tsx,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "foreground-dark": "#f2e5de",
+        "background-dark": "#180c07",
+        "primary-dark": "#ffb894",
+        "secondary-dark": "#a24110",
+        "accent-dark": "#fb6b23",
+        "foreground-light": "#21140d",
+        "background-light": "#f8ece7",
+        "primary-light": "#6b2400",
+        "secondary-light": "#ef8d5d",
+        "accent-light": "#dc4c04",
+      },
+    },
   },
   plugins: [],
 };
