@@ -4,7 +4,8 @@
 
 @layer base {
   html,
-  body {
+  body,
+  #root {
     @apply w-screen max-w-full min-h-screen bg-background-light text-foreground-light dark:bg-background-dark dark:text-foreground-dark;
   }
 }
