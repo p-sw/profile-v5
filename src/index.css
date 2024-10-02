@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-background-light text-foreground-light dark:bg-background-dark dark:text-foreground-dark;
+  }
+}
