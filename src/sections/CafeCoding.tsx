@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useImage } from "react-image";
-import MdiLoading from "../icons/MdiLoading";
-import MdiAlert from "../icons/MdiAlert";
+import { MdiLoading } from "../icons/MdiLoading";
+import { MdiAlert } from "../icons/MdiAlert";
 
 const variants = {
   loading: { y: "-100%", rotateZ: "0deg" },
