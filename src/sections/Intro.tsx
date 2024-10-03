@@ -17,7 +17,7 @@ const profilePicLayoutId = "sections-intro-profilepic";
 
 const NAME = "Shinwoo PARK";
 
-const introTitle = "Hello";
+const introTitle = "Hello!";
 const introDesc = `I'm ${NAME}, a growing frontend engineer with a little bit of backend & server knowledge.`;
 
 const GH_URL = "https://github.com/p-sw";
