@@ -1,7 +1,7 @@
 import { useImage } from "react-image";
 import { MdiAlert } from "../icons/MdiAlert";
 import { MdiLoading } from "../icons/MdiLoading";
-import { AnimatePresence, motion, Variants } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { MdiDiscord } from "../icons/MdiDiscord";
 import { MdiGithub } from "../icons/MdiGithub";
 import { MdiInstagram } from "../icons/MdiInstagram";
