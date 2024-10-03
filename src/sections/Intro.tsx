@@ -18,7 +18,7 @@ const profilePicLayoutId = "sections-intro-profilepic";
 const NAME = "Shinwoo PARK";
 
 const introTitle = "Hello";
-const introDesc = `I'm ${NAME}, a growing frontend (with little bit of backend & server knowledge) engineer.`;
+const introDesc = `I'm ${NAME}, a growing frontend engineer with a little bit of backend & server knowledge.`;
 
 const GH_URL = "https://github.com/p-sw";
 const INSTA_URL = "https://www.instagram.com/pswdev/";
@@ -66,8 +66,8 @@ export function Intro() {
   }, []);
 
   return (
-    <section className="w-full flex flex-row-reverse mt-4">
-      <div className="w-32 grid grid-cols-4 grid-rows-2">
+    <section className="w-full flex flex-col lg:flex-row-reverse items-center text-center lg:text-left gap-8 mt-4 px-2">
+      <div className="w-32 grid grid-cols-4 grid-rows-[1fr_auto]">
         <div className="col-span-4 w-full aspect-square flex flex-row justify-center items-center relative">
           {!error ? <MdiLoading className="animate-spin" /> : <MdiAlert />}
           <ProfilePicFocused
@@ -124,7 +124,7 @@ export function Intro() {
           <Fa6BrandsXTwitter />
         </motion.a>
       </div>
-      <div className="w-full">
+      <div className="w-full max-w-sm mx-auto">
         <h1 className="font-bold text-6xl">{introTitle}</h1>
         <p className="font-medium text-lg">{introDesc}</p>
       </div>
