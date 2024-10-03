@@ -5,7 +5,7 @@ import MdiAlert from "../icons/MdiAlert";
 
 const variants = {
   loading: { y: "-100%", rotateZ: "0deg" },
-  loaded: { y: "0%", rotateZ: "3deg" },
+  loaded: { y: "5%", rotateZ: "2deg" },
 };
 
 export function CafeCodingImage() {
